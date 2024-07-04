@@ -1,6 +1,7 @@
-num1 = 5
-num2 = 3
-sum = num1 + num2
-print(sum)
-result = sum + num1 * num2
-print(result)
+example = 'sound'
+
+print(example[0])
+print(example[-1])
+print(example[2:5])
+print(example[::-1])
+print(example[1:5:2])
