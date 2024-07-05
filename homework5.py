@@ -9,6 +9,5 @@ print(immutable_var)
 
 mutable_list = [1, 2, 'кортеж', True]
 print(mutable_list)
-mutable_list[0] = 99
-mutable_list[3] = False
+mutable_list[0:3] = 99, 5, 'кутЁж'
 print(mutable_list)
